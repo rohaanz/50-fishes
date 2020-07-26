@@ -1,0 +1,23 @@
+.button {
+  background-color: blue;
+  border: 2px solid white;
+  border-radius: 100px;
+  text-decoration: none;
+  padding: 10px 28px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}

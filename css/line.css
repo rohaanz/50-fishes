@@ -1,0 +1,6 @@
+hr.color{
+          height: 8px;
+          border: 2px solid;
+          background: linear-gradient(to left,lime, yellow);
+          border-radius: 10px;
+}

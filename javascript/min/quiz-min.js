@@ -1,0 +1,1 @@
+$(document).ready((function(){document.getElementById("button").addEventListener("click",(function(){document.querySelector(".bg-modal").style.display="flex"})),document.querySelector(".close").addEventListener("click",(function(){document.querySelector(".bg-modal").style.display="none"})),document.querySelector("a").addEventListener("click",(function(e){console.log(e)}))}));
