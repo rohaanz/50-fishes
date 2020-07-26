@@ -2,15 +2,15 @@ var quizData = {
     albacore: {
         questions: [
             {
-                question: "What’s the Phylum of Albacore?",
+                question: "What's the Phylum of Albacore?",
                 answer: "Chordata"
             },
             {
-                question: "What’s the Family of the Albacore?",
+                question: "What's the Family of the Albacore?",
                 answer: "Scombridae"
             },
             {
-                question: "What’s Albacore Adult’s Mass?",
+                question: "What's Albacore Adult's Mass?",
                 answer: "33 kg"
             }
         ]
@@ -34,7 +34,7 @@ var quizData = {
     australianSawtail: {
         questions: [
             {
-                question: "What is its Family?",
+                question: "What is family of Australian Sawtail?",
                 answer: "Catshark"
             }
         ]
@@ -42,7 +42,7 @@ var quizData = {
     basa: {
         questions: [
             {
-                question: "What is the Basa’s Family?",
+                question: "What is the Basa's Family?",
                 answer: "Pangasiidae"
             }
         ]
@@ -311,7 +311,7 @@ var quizData = {
             }
         ]
     },
-    longailTuna: {
+    longtailTuna: {
         questions: [
             {
                 question: "What Is the scientific Name of the Longtail Tuna?",
@@ -374,11 +374,11 @@ var quizData = {
     neonTetra: {
         questions: [
             {
-                question: "What’s The Scientific Name For the Neon Tetra?",
+                question: "What's The Scientific Name For the Neon Tetra?",
                 answer: "Paracheirodon Innesi"
             },
             {
-                question: "What’s The class that belongs to the Neon Tetra?",
+                question: "What's The class that belongs to the Neon Tetra?",
                 answer: "Actinoterygii"
             }
         ]
@@ -390,7 +390,7 @@ var quizData = {
                 answer: "Mola Mola"
             },
             {
-                question: "What’s Another name for the Ocean Sunfish?",
+                question: "What's Another name for the Ocean Sunfish?",
                 answer: "Common Mola"
             }
         ]
@@ -398,7 +398,7 @@ var quizData = {
     peacefulBetta: {
         questions: [
             {
-                question: "What’s The length of a Peaceful Betta?",
+                question: "What's The length of a Peaceful Betta?",
                 answer: "6cm"
             },
             {
@@ -422,11 +422,11 @@ var quizData = {
     shortbillSpearfish: {
         questions: [
             {
-                question: "What’s The length of the Shortbill Spearfish?",
+                question: "What's The length of the Shortbill Spearfish?",
                 answer: "190 cm"
             },
             {
-                question: "What’s The Shortbill Spearfish Family?",
+                question: "What's The Shortbill Spearfish Family?",
                 answer: "Istiophoridae"
             }
         ]
@@ -434,12 +434,12 @@ var quizData = {
     siameseFightingFish: {
         questions: [
             {
-                question: "What’s the lifespan of the Siamese Fighting fish?",
+                question: "What's the lifespan of the Siamese Fighting fish?",
                 answer: "3-5 years"
             },
             {
                 question:
-                    "What’s the scientific name of the Siamese Fighting Fish?",
+                    "What's the scientific name of the Siamese Fighting Fish?",
                 answer: "Betta Splenders"
             }
         ]
@@ -476,7 +476,7 @@ var quizData = {
                 answer: "Perch-like fish"
             },
             {
-                question: "What’s the Phylum Of the Tarwhine?",
+                question: "What's the Phylum Of the Tarwhine?",
                 answer: "Chordata"
             }
         ]
@@ -484,7 +484,7 @@ var quizData = {
     trevallies: {
         questions: [
             {
-                question: "What is the order pf the Trevallies?",
+                question: "What is the order of the Trevallies?",
                 answer: "Carangiformes"
             },
             {
@@ -572,7 +572,7 @@ var quizData = {
                 answer: "Danio Rerio"
             },
             {
-                question: "What’s the class for the zebrafish?",
+                question: "What's the class for the zebrafish?",
                 answer: "Actinoterygii"
             }
         ]
