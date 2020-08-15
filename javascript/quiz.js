@@ -21,14 +21,10 @@ $(document).ready(function () {
         ) {
             var index = Math.floor(Math.random() * quizQuestions.length);
             if (selectedIndexes.indexOf(index) == -1) {
-                console.log("Selected Index: " + index);
                 selectedIndexes.push(index);
                 selectedQuizQuestions.push(quizQuestions[index]);
             }
         }
-        console.log(quizQuestions);
-        console.log(selectedIndexes);
-        console.log(selectedQuizQuestions);
 
         var answers = [];
 
@@ -74,7 +70,6 @@ $(document).ready(function () {
         clearResults();
         addAttempt(attempt++);
         var $checkedRadio = $("input[type=radio]:checked");
-        console.log($checkedRadio.length);
         if ($checkedRadio.length < 4) {
             alert("Please complete all questions");
             return;
@@ -85,7 +80,6 @@ $(document).ready(function () {
             var correctAnswer = selectedQuizQuestions[index - 1].answer;
             var selectedAnswer = this.value;
             if (correctAnswer == selectedAnswer) {
-                console.log("Answer " + index + " Correct");
                 $("#question" + index).append("<div class='result correct'></div>");
             } else {
                 console.log("Answer " + index + " Wrong");
@@ -97,7 +91,6 @@ $(document).ready(function () {
     // Function to add fishes in selection
     $(".fish").click(function (event) {
         var fishId = event.currentTarget.id;
-        console.log(fishId);
 
         if (selectedFishes.indexOf(fishId) == -1) {
             selectedFishes.push(fishId);
@@ -117,6 +110,7 @@ $(document).ready(function () {
         selectedQuizQuestions = [];
         selectedIndexes = [];
         attempt = 1;
+        clearAllQuestions();
     };
 
     var shuffle = a => {
@@ -130,4 +124,8 @@ $(document).ready(function () {
     var addAttempt = (attempt) =>  {
        $("#submitQuiz").html("Submit Quiz (Attempt " + attempt + ")");
     };
+
+    var clearAllQuestions = () => {
+        $('div[id^="question"]').empty();
+    }
 });
